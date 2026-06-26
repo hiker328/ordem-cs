@@ -13,6 +13,12 @@ Skills de CS dentro do seu agente: leem o que está acontecendo na carteira e aj
 **ver o churn chegando** e agir antes. Você cola as conversas/situação dos clientes e o
 agente devolve diagnóstico e próximos passos — sem conectar token.
 
+## Por que existe
+
+Na agência, churn quase sempre dá sinal antes — mas ninguém tem tempo de ler a
+carteira inteira toda semana. Estas skills transformam as conversas e o histórico em
+um **raio-x de risco**, no mesmo padrão, para a agência agir antes de perder o cliente.
+
 ## Pra quem é
 
 - **Agências** que querem reter cliente e parar de "achar" como cada conta está.
@@ -25,7 +31,7 @@ agente devolve diagnóstico e próximos passos — sem conectar token.
 | **cs-ai** | Raio-x da carteira: classifica satisfação, aponta **risco de churn** (com motivo e janela de ação) e o que fazer com cada cliente |
 
 Cada skill traz, além do `SKILL.md`: `references/` (como-aplicar, prova, resultado,
-setup-credenciais) e `card.html` (card de vitrine A360).
+setup-credenciais) e `card.html` (card de vitrine A Ordem).
 
 > Este grupo vai crescer — novas microsoluções de CS (ex.: onboarding de cliente, QBR,
 > playbook de retenção) entram aqui.
@@ -47,6 +53,13 @@ qualquer projeto, copie `.claude/skills/*` para `~/.claude/skills/` (Claude Code
 
 **Nenhuma.** Paste-based: você cola os dados da carteira. Nada conecta, nada pede token.
 
+## O que isso NÃO é
+
+- Não conecta no seu CRM nem pede token — é paste-based (você cola os dados da carteira).
+- Não substitui o CS — entrega diagnóstico e prioridade; a conversa com o cliente é sua.
+- Não inventa status — a classificação sai dos sinais reais, não de achismo.
+
 ## Feito pela A Ordem
 
-Convertido do catálogo de microsoluções A360 Partner. Licença MIT (ver `LICENSE`).
+Criado e mantido pela **A Ordem**. Skills feitas para agências de marketing/tráfego.
+Licença MIT (ver `LICENSE`).
