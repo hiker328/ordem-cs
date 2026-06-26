@@ -1,0 +1,15 @@
+# Segredos — NUNCA comitar
+.env
+*.key
+*token*
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
