@@ -6,7 +6,7 @@
 1. Escolha os clientes que quer analisar (pode ser a carteira inteira ou só os que te preocupam).
 2. Exporte a conversa de cada um no WhatsApp (veja o "Como exportar do WhatsApp" abaixo). Pode ser um grupo de cliente ou o atendimento individual.
 3. Junte também o histórico de atendimento de cada cliente: o que foi pedido, prazos, o que ficou pendente, situação de pagamento. Pode ser colado de um CRM, planilha ou de memória mesmo.
-4. Abra uma conversa nova no Claude (ou ChatGPT). Cole o prompt do arquivo `solucao.md`.
+4. Abra uma conversa nova no Claude (ou ChatGPT). Cole o prompt do arquivo `SKILL.md`.
 5. No fim do prompt, cole os seus dados: contexto da carteira, as conversas e o histórico por cliente.
 6. Envie. Você recebe: resumo da carteira, lista de satisfeitos, lista de em risco, alertas de churn e as próximas ações priorizadas por cliente.
 7. Comece pelas ações P1 (os clientes que podem cancelar hoje). Rode de novo toda semana — vira um ritual de CS.
